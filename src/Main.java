@@ -1,8 +1,7 @@
 public class Main {
     public static void main(String[] args) {
 
-
-        int amount =1_000;
+        int amount = 1_000;
         int amountAdded = 1200;
         int bonusToAmount = 100;
         int bonus;
