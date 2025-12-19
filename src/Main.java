@@ -6,11 +6,13 @@ public class Main {
         int bonusToAmount = 100;
         int bonus;
 
-        if (amountAdded > 1000) {
-            bonus = amountAdded / bonusToAmount;
-        } else {
-            bonus = 0;
-        }
+//        if (amountAdded > 1000) {
+//            bonus = amountAdded / bonusToAmount;
+//        } else {
+//            bonus = 0;
+//        }
+        bonus = amountAdded > 1000? amountAdded / bonusToAmount : 0;
+
         System.out.println("итоговая сумма на счету клиента " + (bonus + amount + amountAdded));
     }
 }
